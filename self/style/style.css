@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header, body,section{
+    width: 100%;
+}
+/* Главная */
+nav{
+    background-color: white;
+    height: 80px;
+    box-shadow: 1px 1px 10px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+a{
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    font-size: 24px;
+    color:black;
+    padding-right: 10px;
+}
+.navbar-img{
+    border: 2px solid pink;
+}
+
+.nav-link:hover{
+    transition: 0.5s;
+    font-size: 25px;
+    background-color:palegoldenrod ;
+}
+
+.about-me{
+    font-family: 'Roboto', sans-serif;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.about-me-info{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.about-me-info img{
+    display: block;
+    width: 25%;
+    margin-top: 100px;
+    border-radius: 100%;
+    box-shadow:  1px 1px 10px 5px rgb(7, 72, 94);
+}
+.about-me-info-text{
+    width: 60%;
+    padding-top: 20px;
+}
+h1{
+    padding-top: 80px;
+     text-align: center; 
+    font-size: 50px;
+    font-family: 'Staatliches', cursive;
+  
+}
+
+.about-me-info p{
+    text-align: center;
+    font-size: 50px;
+    color:#727272;
+
+    padding: 20px 0;
+    font-family: 'Quicksand', sans-serif;
+ 
+}
+.about-me-info button{
+    background-color: #34547A;
+    padding: 20px 20px;
+    border-radius: 10%;
+    color:white;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-left: 200px;
+    margin-bottom: -10px;
+}
+.about-me-info button:hover{
+    background-color:firebrick ;
+    color:black;
+    font-weight: bold;
+}
+/* О себе */
+.self-text{
+    width: 100%;
+}
+.self-title{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    text-align:center;
+}
+main{
+    width: 100%;
+    height: 100%;
+}
+.self-info-bio{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.self-info{
+    width: 70%;
+    
+}
+.self-info-img{
+    width: 20%;
+}
+.self-info-img img{
+    display: block;
+    padding-bottom: 230%;
+}
+/* Мои работы */
+
+.main{ 
+    width: 100%; 
+    margin: auto; 
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    padding: 50px; 
+} 
+
+.item{ 
+    width:calc(80% - 20px); 
+    height: 400px; 
+    margin: 10px; 
+    flex-direction:column-reverse; 
+    background-size: cover;
+}
+
+.item-1{ 
+    background-image: url(../img/work2.jpg); 
+} 
+.item-2{ 
+    background-image: url(../img/work3.jpg); 
+
+} 
+.item-3{ 
+    background-image: url(../img/work4.jpg); 
+
+} 
+.item-4{ 
+    background-image: url(../img/work7.jpg); 
+
+} 
+.item-5{ 
+    background-image: url(../img/work6.jpg); 
+
+} 
+.item-6{ 
+    background-image: url(../img/work5.jpg); 
+
+} 
+
+.work-text{
+    width: 100%;
+    text-align: center;
+   
+    font-family: 'Bebas Neue', cursive;
+}
+.work-text h3{
+    font-size: 35px;
+}
+footer{
+    height: 300px;
+
+    background-size: cover;
+    background-position: center;
+    color:black;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+
+    flex-direction:column;
+    font-family: 'Roboto', sans-serif;
+}
+.h3{
+   margin-bottom: 20px;
+   border:1px solid white;
+   padding: 10px; 
+   
+}
+footer p {
+    width: 40%;
+    font-size: 14px;
+    text-align: center;
+}
+
+
+/*  */
+
+.logo-link{
+    display: block;
+    height: 35px;
+ 
+
+}
+.logo-tele{
+    width: 60px;
+    height: 50px;
+    margin-left: 30px;
+}
+.logo-footer{
+    display: flex;
+    padding-top: 30px;
+    
+}
